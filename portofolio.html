@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Sukma</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      .kolom {
+        display: flex;
+        gap: 25px;
+        margin-top: 20px;
+      }
+
+      .card {
+        flex: 1;
+        background: #f8f9ff;
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+      }
+
+      .card h2 {
+        color: #667eea;
+        margin-top: 0;
+        text-align: center;
+        margin-bottom: 18px;
+      }
+
+      .card ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .card ul li {
+        margin-bottom: 12px;
+      }
+
+      .card ul li a {
+        display: block;
+        text-decoration: none;
+        background: white;
+        padding: 12px;
+        border-radius: 10px;
+        color: #444;
+        font-weight: 600;
+        border: 1px solid #e5e5e5;
+        transition: 0.3s;
+      }
+
+      .card ul li a:hover {
+        background: #667eea;
+        color: white;
+        transform: translateY(-3px);
+      }
+
+      .card p {
+        line-height: 1.8;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="box">
+      <div id="header">
+        <h1>Portofolio</h1>
+        <h3>Sukma Nur Sholehah</h3>
+      </div>
+
+      <div id="menubar">
+        <a href="index.html" class="teksmenu">Home</a>
+        <a href="prak1_sukma.html" class="teksmenu">Profil</a>
+        <a href="portofolio.html" class="teksmenu">Portofolio</a>
+      </div>
+
+      <div id="konten">
+        <div class="kolom">
+          <div class="card">
+            <h2>Modul 1</h2>
+            <ul>
+              <li><a href="prak1_sukma.html">Praktikum 1: Biodata Diri</a></li>
+              <li>
+                <a href="prak2_sukma.html">Praktikum 2: Resep Telur Goreng</a>
+              </li>
+              <li><a href="prak3_sukma.html">Praktikum 3: Tabel Barang</a></li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h2>Modul 2</h2>
+            <ul>
+              <li>
+                <a href="margin.html"
+                  >Praktikum 1 : Margin, Padding, Border, dan background
+                </a>
+              </li>
+              <li><a href="positioning.html">Praktikum 2 : Positioning</a></li>
+              <li>
+                <a href="index.html">Praktikum 3 : Membuat Website Pribadi</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer">
+        Web Programming I <br />
+        2025
+      </div>
+    </div>
+  </body>
+</html>
